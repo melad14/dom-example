@@ -1,0 +1,35 @@
+body{
+    font-family: segoe ui light;
+}
+.item{
+    cursor: pointer;
+}
+.item-caption{
+    background-color: #fff;
+    width: 80%;
+    position: absolute;
+bottom: 30px;
+left: 10%;
+padding: 10px;
+text-align: center;
+}
+
+.box-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    background-color: rgba(0,0 ,0 , .5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.box-item{
+    width: 45%;
+    height: 500px;
+    background-image:url(../images/portfolio-1.jpg) ;
+    background-size: cover;
+}
